@@ -1,0 +1,12 @@
+[workspace]
+members = [
+    "wit-component-build-script",
+    "wit-bindgen-build-script",
+]
+
+[workspace.package]
+authors = ["Mason Ginter <mason@dagint.com>"]
+edition = "2021"
+
+[workspace.dependencies]
+wit-parser = "0.6"
