@@ -1,11 +1,14 @@
 [package]
 name = "guest"
 version = "0.1.0"
-edition = "2021"
-
+authors.workspace = true
+edition.workspace = true
+publish = false
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+# still needed for runtime
 wit-bindgen = "0.4"
+
 [build-dependencies]
 wit-guest-codegen = {path = "../../wit-guest-codegen"}

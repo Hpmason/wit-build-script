@@ -13,6 +13,7 @@ fn main() {
         .build(wit_path);
 
     gen.generate("plugin", "./src/gen").unwrap();
+    // Only run if a .wit file changes, or this build script changes
     println!("cargo:rerun-if-changed=../wit");
     println!("cargo:rerun-if-changed=build.rs");
 }
