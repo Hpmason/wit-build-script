@@ -9,6 +9,7 @@ members = [
 [workspace.package]
 authors = ["Mason Ginter <mason@dagint.com>"]
 edition = "2021"
+license = "MIT OR Apache-2.0"
 
 [workspace.dependencies]
 wit-parser = "0.6"
