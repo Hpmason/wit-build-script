@@ -1,5 +1,0 @@
-default world rusty-barrel {
-  import plugin: func()
-
-  export init: func()
-}
