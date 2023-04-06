@@ -1,5 +1,5 @@
 [package]
-name = "wit-bindgen-build-script"
+name = "wit-guest-codegen"
 version = "0.1.0"
 authors.workspace = true
 edition.workspace = true
@@ -7,4 +7,4 @@ edition.workspace = true
 
 [dependencies]
 wit-bindgen-rust = "0.4"
-wit-bindgen-core = "0.4"
+wit-parser = "0.6"

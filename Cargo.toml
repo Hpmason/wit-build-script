@@ -1,7 +1,7 @@
 [workspace]
 members = [
-    "wit-component-build-script",
-    "wit-bindgen-build-script",
+    "wit-host-codegen",
+    "wit-guest-codegen",
 ]
 
 [workspace.package]

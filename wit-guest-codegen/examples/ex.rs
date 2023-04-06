@@ -1,6 +1,6 @@
 use std::path::PathBuf;
 
-use wit_component_build_script::*;
+use wit_guest_codegen::GenOptions;
 
 fn main() {
     let wit_path = PathBuf::from(env!("CARGO_MANIFEST_DIR"))
@@ -12,5 +12,5 @@ fn main() {
         .with_rustfmt()
         .build(wit_path);
     
-    gen.generate("plugin", "./wasm-host.rs").unwrap();
+    gen.generate("plugin", "./wasm-guest").unwrap();
 }

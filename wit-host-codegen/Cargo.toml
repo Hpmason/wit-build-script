@@ -1,5 +1,5 @@
 [package]
-name = "wit-component-build-script"
+name = "wit-host-codegen"
 version = "0.1.0"
 authors.workspace = true
 edition.workspace = true
