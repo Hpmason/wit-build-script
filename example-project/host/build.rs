@@ -12,7 +12,7 @@ fn main() {
         .with_rustfmt()
         .build(wit_path);
     
-    gen.generate("plugin", "src/wasm-host.rs").unwrap();
+    gen.generate("plugin", "src/wasm_host.rs").unwrap();
     // Only run if a .wit file changes, or this build script changes
     println!("cargo:rerun-if-changed=../wit");
     println!("cargo:rerun-if-changed=build.rs");
