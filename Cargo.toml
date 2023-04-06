@@ -2,6 +2,8 @@
 members = [
     "wit-host-codegen",
     "wit-guest-codegen",
+    "example-project/host",
+    "example-project/guest",
 ]
 
 [workspace.package]

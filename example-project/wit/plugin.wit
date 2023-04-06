@@ -1,0 +1,5 @@
+default world rusty-barrel {
+  import print: func()
+
+  export init: func()
+}
