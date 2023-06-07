@@ -9,7 +9,7 @@ publish = false
 
 [dependencies]
 # still needed for runtime
-wit-bindgen = "0.4"
+wit-bindgen = "0.7"
 
 [build-dependencies]
 wit-guest-codegen = {path = "../../wit-guest-codegen"}

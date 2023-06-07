@@ -1,4 +1,6 @@
-default world rusty-barrel {
+package plugin:example
+
+world plugin {
   import print: func()
 
   export init: func()
